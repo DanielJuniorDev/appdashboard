@@ -1,0 +1,9 @@
+package com.onnet.appdashboard.domain.repository;
+
+import com.onnet.appdashboard.domain.model.Aplication;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AplicationRepository extends JpaRepository<Aplication, Long> {
+}
